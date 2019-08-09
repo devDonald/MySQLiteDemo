@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Signup"
+    android:orientation="vertical"
+    android:background="@color/colorBlue"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorWhite"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:text="REGISTER USER"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        />
+    <EditText
+        android:id="@+id/et_register_name"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:background="@color/colorWhite"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:hint="Name"
+        />
+    <EditText
+        android:id="@+id/et_register_email"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:background="@color/colorWhite"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:hint="Email"
+        />
+    <EditText
+        android:id="@+id/et_register_password"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:background="@color/colorWhite"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:hint="Password"
+        />
+    <EditText
+        android:id="@+id/et_register_cpassword"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:background="@color/colorWhite"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:hint="Confirm Password"
+        />
+    <EditText
+        android:id="@+id/et_register_hobby"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:background="@color/colorWhite"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:hint="Hobby"
+        />
+
+
+    <Button
+        android:id="@+id/bt_register"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:text="Register"
+        android:textStyle="bold"
+        android:background="@color/colorWhite"
+        android:textColor="@color/colorBlue"
+
+        />
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login"
+    android:orientation="vertical"
+    android:background="@color/colorBlue"
+    >
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="LOGIN"
+       android:textStyle="bold"
+       android:textSize="24sp"
+       android:textColor="@color/colorWhite"
+       android:layout_marginTop="30dp"
+       android:layout_gravity="center_horizontal"
+       />
+
+    <EditText
+        android:id="@+id/et_login_email"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:textColor="@color/colorWhite"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:drawableLeft="@drawable/ic_email_black_24dp"
+        android:hint="Email"
+        android:layout_marginTop="50dp"
+        android:layout_margin="30dp"
+        android:layout_gravity="center"
+        />
+    <EditText
+        android:id="@+id/et_login_password"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:textColor="@color/colorWhite"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:drawableLeft="@drawable/ic_lock_outline_black_24dp"
+        android:hint="Password"
+        android:layout_marginTop="50dp"
+        android:layout_margin="30dp"
+        android:layout_gravity="center"
+        />
+    <Button
+        android:id="@+id/bt_login"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textColor="@color/colorBlue"
+        android:background="@color/colorWhite"
+        android:layout_gravity="center"
+        />
+
+    <RelativeLayout
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Not registered?"
+            android:id="@+id/txt1"
+            android:textSize="20sp"
+            android:layout_margin="10dp"
+            android:textStyle="bold|italic"
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center"
+            android:textColor="@color/colorWhite"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Click here"
+            android:id="@+id/textview"
+            android:layout_centerVertical="true"
+            android:textColor="@color/colorWhite"
+            android:layout_toRightOf="@id/txt1"
+            android:layout_marginTop="14dp"
+            android:textSize="18sp"
+            android:textStyle="bold|italic"
+            />
+
+
+    </RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
